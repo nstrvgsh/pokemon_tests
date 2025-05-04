@@ -2,8 +2,8 @@ import requests
 import pytest
 
 URL = 'https://api.pokemonbattle.ru/v2'
-TRAINER_ID = 29198 
-EXPECTED_TRAINER_NAME = 'Tequila Sunset'
+TRAINER_ID = USER_ID
+EXPECTED_TRAINER_NAME = 'TRAINER_NAME'
 
 def test_status_code():
     response = requests.get(f'{URL}/trainers')
